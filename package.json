@@ -1,0 +1,23 @@
+{
+  "name": "pushbullet-cli",
+  "version": "1.0.0",
+  "description": "PushBullet CLI to push stuff to the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pushbullet": "pushbullet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladikoff/node-pushbullet-cli.git"
+  },
+  "author": "Vlad Filippov (http://vf.io)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "osenv": "0.1.0",
+    "pushbullet": "^1.4.2"
+  }
+}
