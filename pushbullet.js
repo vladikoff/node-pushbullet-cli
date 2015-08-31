@@ -9,7 +9,7 @@ var key = process.env.PUSHBULLET_KEY;
 
 if (!key) {
   try {
-    key = fs.readFileSync(path.join(home, '.pushbulletkey')).toString();
+    key = fs.readFileSync(path.join(home, '.pushbulletkey')).toString().trim();
   } catch (err) {
     failedKey();
   }
