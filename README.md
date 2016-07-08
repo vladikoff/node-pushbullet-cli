@@ -12,7 +12,6 @@ Install the CLI: `npm install -g pushbullet-cli`. Might need `sudo` for OS X.
 
 ```
 pushbullet "Hey there"
-
 ```
 
 ```
